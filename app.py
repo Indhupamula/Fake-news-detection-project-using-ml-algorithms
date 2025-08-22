@@ -1,4 +1,7 @@
 import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 import pandas as pd
 import re
 from nltk.corpus import stopwords
@@ -118,3 +121,4 @@ st.sidebar.info("""
 
     **Data Source:** [Kaggle Fake and Real News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
 """)
+
